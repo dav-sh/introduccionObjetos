@@ -1,19 +1,33 @@
+package src;
 public class Contador {
     private int count;
-    public static void main(String[] args){
-        Contador a = new Contador();
-    }
+    
     public Contador(){
 
     }
 
-    public Contador(){
-        count = 0;
+    public Contador(int count){
+        this.count = 0;
     }
 
-    public Contador(){
-        
+    public Contador(Contador contador){
+        this.count = contador.count;
 
+
+    }
+
+    public void setCount(int count){
+        this.count = count;
+    }
+    public int getCount(){
+        return this.count;
+    }
+    public void incrementCounter(){
+        this.count++;
+    }
+
+    public void decrementCounter(){
+        this.count--;
     }
 
 }
