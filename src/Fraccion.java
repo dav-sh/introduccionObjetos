@@ -24,7 +24,7 @@ public class Fraccion {
         return "Add : "+add;
     }
     public String subtract(){
-        double subtract = this.number1 - this.number2
+        double subtract = this.number1 - this.number2;          
         return "Subtract : "+subtract;
     }
     public String divide(){

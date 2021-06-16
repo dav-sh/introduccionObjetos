@@ -17,8 +17,8 @@ public class Libro {
     public String borrow(){
         return this.name+" borrowed";
     }
-    public String return(){
-        return this.name+" returned"
+    public String returned(){
+        return this.name+" returned";
     }
     public String seeInformation(){
         return this.name+ " information...";

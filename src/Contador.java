@@ -7,7 +7,7 @@ public class Contador {
     }
 
     public Contador(int count){
-        this.count = 0;
+        this.count = count;
     }
 
     public Contador(Contador contador){
@@ -22,12 +22,12 @@ public class Contador {
     public int getCount(){
         return this.count;
     }
-    public void incrementCounter(){
-        this.count++;
+    public String incrementCounter(){
+        return "count +1 : "+this.count++;
     }
 
-    public void decrementCounter(){
-        this.count--;
+    public String decrementCounter(){
+        return "cpunt -1 : "+this.count--;
     }
 
 }
